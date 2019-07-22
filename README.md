@@ -9,7 +9,7 @@ For the feature extraction procedure please cite:
 Kordopatis-Zilos, G., Papadopoulos, S., Patras, I., & Kompatsiaris, Y. (2017, January). Near-duplicate video retrieval by aggregating intermediate cnn layers. In International conference on multimedia modeling (pp. 251-263). Springer, Cham.
 ```
 
-Then, during the second step, the features are used in a matlab script by a linear-kernel Support Vector Machine. Please note that the features of the 1st step should be put in the matlab path as a ".npy" file. The provided version operates on the features from images captured during the on-site visits of the e-Vision project. 
+Then, during the second step, the features are used in a matlab script by a linear-kernel Support Vector Machine. Please note that the features of the 1st step should be put in the matlab path as a ".npy" file. The provided version operates on the features from images captured during the on-site visits of the e-Vision project. The employed images/features are not provided so as to preserve participants' privacy.
 
 If you use this code for your research, please cite our paper:
 ```
