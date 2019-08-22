@@ -39,10 +39,3 @@ function [acc,C] = myfun(i_layer,labels,paramsSVM)
     acc = sum(pred == testLabel) ./ numel(testLabel)    %# accuracy
     C = confusionmat(testLabel, pred)
 end
-
-%[141   144   145   147   153    69    77   133   154]
-% [92    94    99   109   114   126   141   147   152]
-% [58   100   110   131   136   137   139   151   155]
-%[127   130   138   144   148   150   156    66   111]
-
-
