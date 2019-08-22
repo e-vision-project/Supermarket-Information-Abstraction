@@ -7,10 +7,13 @@ The 1st step employs a deep neural network for extracting features from images b
 Additionally, we provide a matlab script that can operate on the extracted features and feeds them to a Support Vector Machine. Please note that the output features of the 1st step should be put in the matlab path as a ".npy" file. The provided version operates on the features from images captured during the on-site visits of the e-Vision project. The employed images/features are not provided so as to preserve participants' privacy.
 
 Code dependencies:
+```
 For Tensorflow and Keras please see: https://www.tensorflow.org/tutorials/keras
-For the libSVM please refer to: https://www.csie.ntu.edu.tw/~cjlin/libsvm/
-For loading .npy files in Matlab please see: https://github.com/kwikteam/npy-matlab
 
+For the libSVM please refer to: https://www.csie.ntu.edu.tw/~cjlin/libsvm/
+
+For loading .npy files in Matlab please see: https://github.com/kwikteam/npy-matlab
+```
 
 If you use this code for your research, please cite our paper:
 ```
